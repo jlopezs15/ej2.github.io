@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <a href="../index.html">BACK</a>
+
+  <form action="">
+    <div class="container text-center">Vuestro form aquí</div>
+
+    <div class="row row-cols-2">
+      <div class="col-sm">
+        <label for="Name" class="form-label">Fist Name</label>
+        <input type="text" class="form-control" id="Name" aria-describedby="Name" required>
+      </div>
+      <div class="col-sm">
+        <label for="lName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lName" aria-describedby="lName" required>
+      </div>
+    </div>
+
+    <div class="row row-cols-2">
+      <div class="col-sm">
+        <label for="pwd" class="form-label">Password</label>
+        <input type="password" class="form-control" id="pwd" aria-describedby="pwd" required>
+      </div>
+      <div class="col-sm">
+        <label for="pwdw" class="form-label">Repit password</label>
+        <input type="password" class="form-control" id="pwdw" aria-describedby="pwdw" required>
+      </div>
+    </div>
+    <div class="row row-cols-2">
+      <div class="col-sm">
+        <label for="Username" class="form-label">Username</label>
+        <input type="text" class="form-control" id="Username" aria-describedby="Username" required>
+      </div>
+      <div class="col-sm">
+        <label for="country" class="form-label">Country</label>
+        <select name="country" class="form-control" required>
+          <option value="">Choose contry..</option>
+          <option value="">Francve</option>
+          <option value="">Spain</option>
+        </select>
+      </div>
+    </div>
+    
+     
+      <input type="checkbox" name="terms" id="" required >
+      <label for="terms" class="form-label">Agree to terms and conditions</label>
+   <br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</body>
+
+</html>
